@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Background Styling-->
+    <style>
+        #home,
+        #about,
+        #donate{
+            background-image: url(img/index-wall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
     <title>Home</title>
 </head>
 <body>
-    This file is home.html
+    <!---------------- Navigation Bar ---------------->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#donate">Donate</a></li>
+        </ul>
+    </nav>
+    <div id="home">
+        <h1>This is the home section</h1>
+    </div>
+    <div id="about">
+        <h1>This is the about section</h1>
+    </div>
+    <div id="donate">
+        <h1>This is the donate section</h1>
+    </div>
 </body>
 </html>
